@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppCopaHAS.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppCopaHAS"
+    xmlns:jogos="clr-namespace:AppCopaHAS.Views.Jogos"
+    Title="AppCopaHAS">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent Title="Jogos" Route="jogos"
+        ContentTemplate="{DataTemplate jogos:CadastroJogoView}"/>
+    <ShellContent Title="Tabela" Route="tabela"
+        ContentTemplate="{DataTemplate jogos:TabelaView}"/>
+
+</Shell>
