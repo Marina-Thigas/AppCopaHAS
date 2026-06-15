@@ -29,6 +29,40 @@ namespace AppCopaHAS.ViewModels
             } 
         }
 
+        private static string _conexaoAzureBlobStorage = "Cole a string aqui";
+        private static string _container = "arquivos";
+
+        private async Task SelecionarFoto(Jogador jogador)
+        {
+            try
+            {
+                var fotos = await MediaPicker.Default.PickPhotosAsync();
+                var foto = fotos?.FirstOrDefault();
+                if (foto == null)
+                    return;
+
+                var extensao = Path.GetExtension(foto.FileName);
+
+                if(!string.Equals(extensao, ".png", StringComparison.OrdinalIgnoreCase))
+                {
+                    await Application.Current.MainPage.DisplayAlertAsync(
+                        "Formato inválido", "Selecione uma imagem PNG.", "OK");
+                    return;
+                }
+                string msg = $"Deseja salvar a imagem para {jogador.Nome} - {selecaoSelecionada.Pais}";
+                if (!await Application.Current.MainPage.DisplayAlertAsync("Mensagem", msg, "Sim", "Não"))
+                    return;
+
+                await using var stream = await foto.OpenReadAsync();
+                string filename = $"{SelecaoSelecionada.Pais}-{jogador.Nome}";
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlertAsync("Ops", ex.Message, "Detalhes" + ex.InnerException, "Ok");
+            }
+        } 
+
         public AlbumViewModel()
         {
             _selecaoService = new SelecaoService();

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MarinaThiago3AI\\AppCopaHAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\viewmodels\\albumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\viewmodels\\albumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\models\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\models\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\views\\jogadores\\albumview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\views\\jogadores\\albumview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\views\\jogadores\\albumview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\views\\jogadores\\albumview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\services\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\services\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|d:\\marinathiago3ai\\appcopahas\\appcopahas\\services\\jogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB5EDB0-BE85-BD9D-0D3C-228AF9355DE2}|AppCopaHAS\\AppCopaHAS.csproj|solutionrelative:appcopahas\\services\\jogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlbumView.xaml.cs",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml.cs",
+              "RelativeDocumentMoniker": "AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml.cs",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml.cs",
+              "RelativeToolTip": "AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:34:18.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlbumView.xaml",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml",
+              "RelativeDocumentMoniker": "AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml",
+              "RelativeToolTip": "AppCopaHAS\\Views\\Jogadores\\AlbumView.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-15T11:33:36.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumViewModel.cs",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\ViewModels\\AlbumViewModel.cs",
+              "RelativeDocumentMoniker": "AppCopaHAS\\ViewModels\\AlbumViewModel.cs",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\ViewModels\\AlbumViewModel.cs",
+              "RelativeToolTip": "AppCopaHAS\\ViewModels\\AlbumViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:06:20.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Models\\Jogador.cs",
+              "RelativeDocumentMoniker": "AppCopaHAS\\Models\\Jogador.cs",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Models\\Jogador.cs",
+              "RelativeToolTip": "AppCopaHAS\\Models\\Jogador.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:53:19.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JogadorService.cs",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Services\\JogadorService.cs",
+              "RelativeDocumentMoniker": "AppCopaHAS\\Services\\JogadorService.cs",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Services\\JogadorService.cs",
+              "RelativeToolTip": "AppCopaHAS\\Services\\JogadorService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:55:47.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JogoService.cs",
+              "DocumentMoniker": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Services\\JogoService.cs",
+              "RelativeDocumentMoniker": "AppCopaHAS\\Services\\JogoService.cs",
+              "ToolTip": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\Services\\JogoService.cs",
+              "RelativeToolTip": "AppCopaHAS\\Services\\JogoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:34:17.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -66,12 +66,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.29.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Jogadores\AlbumView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Jogos\CadastroJogoView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
