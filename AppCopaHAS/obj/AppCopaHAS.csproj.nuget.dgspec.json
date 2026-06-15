@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\source\\repos\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj": {}
+    "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\source\\repos\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj": {
+    "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\source\\repos\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj",
+        "projectUniqueName": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj",
         "projectName": "AppCopaHAS",
-        "projectPath": "C:\\Users\\vitor\\source\\repos\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj",
-        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\source\\repos\\AppCopaHAS\\AppCopaHAS\\obj\\",
+        "projectPath": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\AppCopaHAS.csproj",
+        "packagesPath": "D:\\NUGET_PACKAGES",
+        "outputPath": "D:\\MarinaThiago3AI\\AppCopaHAS\\AppCopaHAS\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -40,12 +40,12 @@
             "projectReferences": {}
           },
           "net10.0-ios": {
-            "framework": "net10.0-ios26.2",
+            "framework": "net10.0-ios26.5",
             "targetAlias": "net10.0-ios",
             "projectReferences": {}
           },
           "net10.0-maccatalyst": {
-            "framework": "net10.0-maccatalyst26.2",
+            "framework": "net10.0-maccatalyst26.5",
             "targetAlias": "net10.0-maccatalyst",
             "projectReferences": {}
           },
@@ -72,6 +72,10 @@
           "framework": "net10.0-android36.0",
           "targetAlias": "net10.0-android",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.29.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -83,7 +87,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.9, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -113,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -390,9 +394,13 @@
           }
         },
         "net10.0-ios": {
-          "framework": "net10.0-ios26.2",
+          "framework": "net10.0-ios26.5",
           "targetAlias": "net10.0-ios",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.29.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -404,7 +412,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.9, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -434,7 +442,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -711,9 +719,13 @@
           }
         },
         "net10.0-maccatalyst": {
-          "framework": "net10.0-maccatalyst26.2",
+          "framework": "net10.0-maccatalyst26.5",
           "targetAlias": "net10.0-maccatalyst",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.29.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -725,7 +737,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.8, )",
+              "version": "[10.0.9, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -756,7 +768,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1036,6 +1048,10 @@
           "framework": "net10.0-windows10.0.19041",
           "targetAlias": "net10.0-windows10.0.19041.0",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.29.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -1074,7 +1090,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
